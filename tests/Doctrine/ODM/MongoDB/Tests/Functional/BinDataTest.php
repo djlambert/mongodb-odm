@@ -30,7 +30,7 @@ class BinDataTest extends BaseTest
 			array('binFunc', 'test', \MongoBinData::FUNC),
 			array('BinUUID', 'test', \MongoBinData::UUID),
 			array('binMd5', 'test', \MongoBinData::MD5),
-			array('binCustom', 'test', -128) // \MongoBinData::CUSTOM produces 128 which is wrong
+			array('binCustom', 'test', \MongoBinData::CUSTOM),
 		);
 	}
 }
